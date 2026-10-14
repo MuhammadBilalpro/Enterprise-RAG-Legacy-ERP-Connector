@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env (at least 12 characters)}
+      FINANCE_PASSWORD: ${FINANCE_PASSWORD:?Set FINANCE_PASSWORD in .env}
+      EMPLOYEE_PASSWORD: ${EMPLOYEE_PASSWORD:?Set EMPLOYEE_PASSWORD in .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      OLLAMA_URL: ${OLLAMA_URL:-}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-}
+    volumes:
+      - app-data:/app/data
+    restart: unless-stopped
+volumes:
+  app-data:

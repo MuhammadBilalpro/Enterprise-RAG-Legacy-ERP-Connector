@@ -1,0 +1,9 @@
+{
+  "name": "enterprise-rag-erp-connector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node src/server.js", "test": "node --test --test-isolation=none", "demo": "node scripts/demo.js" },
+  "dependencies": { "pdfjs-dist": "5.4.624" }
+}

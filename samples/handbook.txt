@@ -1,0 +1,4 @@
+Company remote work policy
+Employees may work remotely up to three days each week with manager agreement.
+Use the company VPN for internal systems. Never share customer records in public channels.
+Support requests should include a ticket reference and a short description.

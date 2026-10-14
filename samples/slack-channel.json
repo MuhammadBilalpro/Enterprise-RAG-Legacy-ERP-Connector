@@ -1,0 +1,4 @@
+[
+  { "user": "U_DEMO_01", "ts": "1791936000.000001", "text": "Delivery update: Acme shipment is delayed until Friday. Finance should review the overdue invoice before contacting the vendor." },
+  { "user": "U_DEMO_02", "ts": "1791936100.000002", "text": "Please use invoice reference INV-1001 in the review request. This is fictional demo data." }
+]
